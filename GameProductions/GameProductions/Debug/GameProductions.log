@@ -1,38 +1,32 @@
 ﻿  AssetManager.cpp
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TransformComponent.h(54,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TransformComponent.h(55,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(28,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(29,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(42,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TransformComponent.h(54,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TransformComponent.h(55,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(28,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(29,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(42,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
   Collision.cpp
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(43,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TransformComponent.h(54,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TransformComponent.h(55,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(28,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(29,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(42,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-  EntityComponentSystem.cpp
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(43,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TransformComponent.h(54,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TransformComponent.h(55,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(28,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(29,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(42,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
   Game.cpp
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(43,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TransformComponent.h(54,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TransformComponent.h(55,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(28,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(29,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(42,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(43,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\Game.cpp(175,66): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-  GameObject.cpp
-  Main.cpp
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(43,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TransformComponent.h(54,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TransformComponent.h(55,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(28,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(29,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(42,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(43,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\Game.cpp(175,66): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
   Map.cpp
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\Game.cpp(176,66): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TransformComponent.h(54,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TransformComponent.h(55,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(28,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(29,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(42,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-  TextureManager.cpp
-  Vector2D.cpp
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\Game.cpp(176,66): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TransformComponent.h(54,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TransformComponent.h(55,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(28,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(29,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(42,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
   Generating Code...
-C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\GameProductions\TileComponent.h(43,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-  LINK : C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\Debug\GameProductions.exe not found or not built by the last incremental link; performing full link
-  GameProductions.vcxproj -> C:\Users\Oscar\Desktop\Production-Game-master\GameProductions\Debug\GameProductions.exe
+C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(43,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+  GameProductions.vcxproj -> C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\Debug\GameProductions.exe

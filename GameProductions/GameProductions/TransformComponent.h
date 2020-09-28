@@ -24,7 +24,7 @@ public:
 
 	TransformComponent(int sc)
 	{
-		position.x = 100; //player spawn
+		position.x = 101; //player spawn
 		position.y = 150;
 		scale = sc;
 	}
