@@ -68,7 +68,7 @@ void Game::init(const char* title, int width, int height, bool fullscreen)
 
 	maps = new Map("terrain", 2, 32); //map name, map scale size, tile size 
 
-	maps->LoadMap("Assets/map.map", 25, 20);
+	//maps->LoadMap("Assets/map.map", 25, 20);
 
 	player.addComponent<TransformComponent>(3); //scale the player size
 	player.addComponent<SpriteComponent>("player", true);
