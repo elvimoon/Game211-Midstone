@@ -26,18 +26,6 @@ public:
 				//transform->velocity.y = -1;
 				sprite->Play("Walk");
 				break;
-				
-			case SDLK_a:
-				transform->ApplyForce(Vector2D(-5, 0));
-				//transform->velocity.x = -1;
-				sprite->Play("Walk");
-				sprite->spriteFlip = SDL_FLIP_HORIZONTAL; //flip or character will end up moonwalking
-				break;
-			case SDLK_d:
-				transform->ApplyForce(Vector2D(5, 0));
-				//transform->velocity.x = 1;
-				sprite->Play("Walk");
-				break;
 			case SDLK_s:
 				transform->ApplyForce(Vector2D(0, 5));
 				//transform->velocity.y = 1;
@@ -56,17 +44,6 @@ public:
 			case SDLK_w:
 				transform->ApplyForce(Vector2D(0, 0));
 				//transform->velocity.y = 0;
-				sprite->Play("Idle");
-				break;
-			case SDLK_a:
-				transform->ApplyForce(Vector2D(0, 0));
-				//transform->velocity.x = 0;
-				sprite->Play("Idle");
-				sprite->spriteFlip = SDL_FLIP_NONE;
-				break;
-			case SDLK_d:
-				transform->ApplyForce(Vector2D(0, 0));
-				//transform->velocity.x = 0;
 				sprite->Play("Idle");
 				break;
 			case SDLK_s:
