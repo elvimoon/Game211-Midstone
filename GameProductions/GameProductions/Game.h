@@ -8,6 +8,7 @@
 
 class AssetManager;
 class ColliderComponent;
+class SpawnerProjectile;
 using namespace std;
 
 class Game
@@ -30,6 +31,7 @@ public:
 	
 	static SDL_Rect camera;
 	static AssetManager* assets;
+	static SpawnerProjectile* spawner;
 	enum groupLabels : size_t
 	{
 		groupMap,
