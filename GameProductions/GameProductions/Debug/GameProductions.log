@@ -19,7 +19,6 @@ C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProduc
 C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(28,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
 C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(29,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
 C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(42,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-  EntityComponentSystem.cpp
   Game.cpp
 C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(43,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
 C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TransformComponent.h(54,1): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
@@ -46,13 +45,7 @@ C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProduc
 C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(28,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
 C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(29,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
 C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(42,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-  MapGenerator.cpp
-  MapManager.cpp
-  Randomizer.cpp
   TextureManager.cpp
-  Vector2D.cpp
   Generating Code...
 C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\GameProductions\TileComponent.h(43,27): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-Game.obj : error LNK2019: unresolved external symbol "public: __thiscall SpawnerProjectile::SpawnerProjectile(class AssetManager *)" (??0SpawnerProjectile@@QAE@PAVAssetManager@@@Z) referenced in function "void __cdecl `dynamic initializer for 'public: static class SpawnerProjectile * Game::spawner''(void)" (??__E?spawner@Game@@2PAVSpawnerProjectile@@A@@YAXXZ)
-Game.obj : error LNK2019: unresolved external symbol "public: void __thiscall SpawnerProjectile::Update(void)" (?Update@SpawnerProjectile@@QAEXXZ) referenced in function "public: void __thiscall Game::update(void)" (?update@Game@@QAEXXZ)
-C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\Debug\GameProductions.exe : fatal error LNK1120: 2 unresolved externals
+  GameProductions.vcxproj -> C:\Users\Oscar\Desktop\GitHub\Production-Game-master\Game211-Midstone\GameProductions\Debug\GameProductions.exe
