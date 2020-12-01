@@ -5,7 +5,7 @@
 #include "Vector2D.h"
 #include "Collision.h"
 #include "AssetManager.h"
-//#include "SpawnerProjectile.h"
+#include "SpawnerProjectile.h"
 
 using namespace std;
 
@@ -17,7 +17,7 @@ SDL_Event Game::event;
 SDL_Rect Game::camera = { 0,0, 800, 640 };
 
 AssetManager* Game::assets = new AssetManager(&manager);
-//SpawnerProjectile* Game::spawner = new SpawnerProjectile(Game::assets);
+SpawnerProjectile* Game::spawner = new SpawnerProjectile(Game::assets);
 bool Game::isRunning = false;
 bool onGround = false;
 
@@ -120,7 +120,9 @@ void Game::update()
 	manager.update();
 
 	//player.getComponent<TransformComponent>().ApplyForce(Vector2D(0, 1)); //this would apply constant downwrds force - gravity
-	//spawner->Update();
+
+	spawner->Update();
+
 	//if statements for collision
 	for (auto& c : colliders)
 	{
