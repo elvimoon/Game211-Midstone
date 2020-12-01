@@ -82,8 +82,8 @@ void Game::init(const char* title, int width, int height, bool fullscreen)
 	//label.addComponent<UILabel>(10, 10, "Test String", "arial", white);
 
 	//this will create projectiles - first set of vector2d sets spawn position, then velocity, range and speed
-	assets->CreateProjectile(Vector2D(700, 200), Vector2D(-2, 0), 800, 2, "projectile"); //position of projectile
-	assets->CreateProjectile(Vector2D(700, 160), Vector2D(-2, 0), 800, 2, "projectile");
+	assets->CreateProjectile(Vector2D(700, 315), Vector2D(-2, 0), 800, 2, "projectile"); //position of projectile
+	assets->CreateProjectile(Vector2D(700, 275), Vector2D(-2, 0), 800, 2, "projectile");
 }
 
 auto& tiles(manager.getGroup(Game::groupMap));
@@ -141,13 +141,13 @@ void Game::update()
 		{
 			cout << "player hit collider" << endl;
 			//player.getComponent<TransformComponent>().ApplyForce(Vector2D(0, 0));
-			player.getComponent<TransformComponent>().position.x = playerPos.x + 3;
+			player.getComponent<TransformComponent>().position.x = playerPos.x + 1;
 		}
 
 		if (Collision::AABB(cCol, playerCol) && playerVel.y == 0 && playerVel.x > 0)
 		{
 			cout << "player hit collider" << endl;
-			player.getComponent<TransformComponent>().position.x = playerPos.x - 3;
+			player.getComponent<TransformComponent>().position.x = playerPos.x - 1;
 		}
 
 		//else if (Collision::AABB(cCol, playerCol) && playerVel.x < 0 || playerVel.x > 0)
@@ -175,8 +175,8 @@ void Game::update()
 	}
 
 	//to keep the camera following player in middle
-	camera.x = player.getComponent<TransformComponent>().position.x - 400; //half of screen is 400 as map is 800 x 640
-	camera.y = player.getComponent<TransformComponent>().position.y - 320;
+	//camera.x = player.getComponent<TransformComponent>().position.x - 400; //half of screen is 400 as map is 800 x 640
+	//camera.y = player.getComponent<TransformComponent>().position.y - 320;
 
 	if (camera.x < 0)
 	{

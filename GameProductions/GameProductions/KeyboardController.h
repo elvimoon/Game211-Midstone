@@ -9,9 +9,9 @@ public:
 	TransformComponent* transform;
 	SpriteComponent* sprite;
 	int currentRow;
-	int topRow = 100;
-	int midRow = 200;
-	int botRow = 300;
+	int topRow = 50;
+	int midRow = 250;
+	int botRow = 450;
 
 	void init() override
 	{
@@ -19,10 +19,10 @@ public:
 		sprite = &entity->getComponent<SpriteComponent>();
 
 		//Movement Values
-		currentRow = 200;
-		topRow = 100;
-		midRow = 200;
-		botRow = 300;
+		currentRow = 250;
+		topRow = 50;
+		midRow = 250;
+		botRow = 450;
 	}
 
 	void update() override

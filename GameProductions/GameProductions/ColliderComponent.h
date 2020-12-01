@@ -45,7 +45,15 @@ public:
 
 	void update() override
 	{
-		if (tag != "terrain")
+		if (tag == "player")
+		{
+			collider.x = static_cast<int>(transform->position.x + 32);
+			collider.y = static_cast<int>(transform->position.y + 20);
+			collider.w = ((transform->width * transform->scale) / 3);
+			collider.h = ((transform->height * transform->scale) * 0.8);
+		}
+
+		if (tag == "projectile")
 		{
 			collider.x = static_cast<int>(transform->position.x);
 			collider.y = static_cast<int>(transform->position.y);
@@ -59,6 +67,10 @@ public:
 
 	void draw() override
 	{
+
+		//SDL_SetRenderDrawColor(Game::renderer, 0, 255, 0, 255);
+		//SDL_RenderDrawRect(Game::renderer, &collider);
 		TextureManager::Draw(tex, srcR, destR, SDL_FLIP_NONE);
+		//SDL_SetRenderDrawColor(Game::renderer, 255, 255, 255, 255);
 	}
 };

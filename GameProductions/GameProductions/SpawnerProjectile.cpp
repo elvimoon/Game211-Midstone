@@ -8,8 +8,8 @@ SpawnerProjectile::SpawnerProjectile(AssetManager* _AssetMan) {
 
 	lanes = 3;
 	laneWidth = 200.0f;
-	offsetTop = 20.0f;
-	delay = 60;
+	offsetTop = 110.0f;
+	delay = 75;
 }
 
 SpawnerProjectile::~SpawnerProjectile() {
@@ -29,6 +29,6 @@ void SpawnerProjectile::Update() {
 	delay--;
 	if (delay <= 0) {
 		SpawnProjectile();
-		delay = 60;
+		delay = 75;
 	}
 }
