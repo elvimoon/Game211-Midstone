@@ -144,8 +144,6 @@
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Map.cpp" />
-    <ClCompile Include="MapGenerator.cpp" />
-    <ClCompile Include="MapManager.cpp" />
     <ClCompile Include="Randomizer.cpp" />
     <ClCompile Include="SpawnerProjectile.cpp" />
     <ClCompile Include="TextureManager.cpp" />
@@ -162,8 +160,6 @@
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="KeyboardController.h" />
     <ClInclude Include="Map.h" />
-    <ClInclude Include="MapGenerator.h" />
-    <ClInclude Include="MapManager.h" />
     <ClInclude Include="ProjectileComponent.h" />
     <ClInclude Include="Randomizer.h" />
     <ClInclude Include="SpawnerProjectile.h" />
@@ -171,7 +167,6 @@
     <ClInclude Include="TransformComponent.h" />
     <ClInclude Include="SpriteComponent.h" />
     <ClInclude Include="TextureManager.h" />
-    <ClInclude Include="UILabel.h" />
     <ClInclude Include="Vector2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
